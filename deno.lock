@@ -1,0 +1,52 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:@hono/zod-openapi": "npm:@hono/zod-openapi@0.9.9_hono@4.1.5_zod@3.22.4"
+    },
+    "npm": {
+      "@asteasolutions/zod-to-openapi@5.5.0_zod@3.22.4": {
+        "integrity": "sha512-d5HwrvM6dOKr3XdeF+DmashGvfEc+1oiEfbscugsiwSTrFtuMa7ETpW9sTNnVgn+hJaz+PRxPQUYD7q9/5dUig==",
+        "dependencies": {
+          "openapi3-ts": "openapi3-ts@4.2.2",
+          "zod": "zod@3.22.4"
+        }
+      },
+      "@hono/zod-openapi@0.9.9_hono@4.1.5_zod@3.22.4": {
+        "integrity": "sha512-Icak3c8WKNS1gFDWmYs2zJ7ra3js9lDeAXNPf5h3fa0SnJQcjcCrLaG6EZPPAbW92HRwCDeQt8yA/ZVp17HPFg==",
+        "dependencies": {
+          "@asteasolutions/zod-to-openapi": "@asteasolutions/zod-to-openapi@5.5.0_zod@3.22.4",
+          "@hono/zod-validator": "@hono/zod-validator@0.1.11_hono@4.1.5_zod@3.22.4",
+          "hono": "hono@4.1.5",
+          "zod": "zod@3.22.4"
+        }
+      },
+      "@hono/zod-validator@0.1.11_hono@4.1.5_zod@3.22.4": {
+        "integrity": "sha512-PQXeHUP0+36qpRt8yfeD7N2jbK3ETlGvSN6dMof/HwUC/APRokQRjpXZm4rrlG71Ft0aWE01+Bm4XejqPie5Uw==",
+        "dependencies": {
+          "hono": "hono@4.1.5",
+          "zod": "zod@3.22.4"
+        }
+      },
+      "hono@4.1.5": {
+        "integrity": "sha512-3ChJiIoeCxvkt6vnkxJagplrt1YZg3NyNob7ssVeK2PUqEINp4q1F94HzFnvY9QE8asVmbW5kkTDlyWylfg2vg==",
+        "dependencies": {}
+      },
+      "openapi3-ts@4.2.2": {
+        "integrity": "sha512-+9g4actZKeb3czfi9gVQ4Br2Ju3KwhCAQJBNaKgye5KggqcBLIhFHH+nIkcm0BUX00TrAJl6dH4JWgM4G4JWrw==",
+        "dependencies": {
+          "yaml": "yaml@2.4.1"
+        }
+      },
+      "yaml@2.4.1": {
+        "integrity": "sha512-pIXzoImaqmfOrL7teGUBt/T7ZDnyeGBWyXQBvOVhLkWLN37GXv8NMLK406UY6dS51JfcQHsmcW5cJ441bHg6Lg==",
+        "dependencies": {}
+      },
+      "zod@3.22.4": {
+        "integrity": "sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {}
+}
